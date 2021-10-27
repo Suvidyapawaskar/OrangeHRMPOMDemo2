@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="20515" started-at="2021-10-08T04:03:29Z" finished-at="2021-10-08T04:03:49Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="20515" started-at="2021-10-08T04:03:29Z" finished-at="2021-10-08T04:03:49Z">
+      <class name="com.orangehrm.modules.Login">
+        <test-method status="PASS" signature="executeLogin(java.lang.String, java.lang.String, int)[pri:0, instance:com.orangehrm.modules.Login@3532ec19]" name="executeLogin" duration-ms="11736" started-at="2021-10-08T04:03:37Z" finished-at="2021-10-08T04:03:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[15]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeLogin -->
+      </class> <!-- com.orangehrm.modules.Login -->
+      <class name="com.orangehrm.modules.Launch">
+        <test-method status="PASS" signature="executeLaunch(java.lang.String, int)[pri:0, instance:com.orangehrm.modules.Launch@26653222]" name="executeLaunch" duration-ms="8732" started-at="2021-10-08T04:03:29Z" finished-at="2021-10-08T04:03:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[15]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeLaunch -->
+      </class> <!-- com.orangehrm.modules.Launch -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
