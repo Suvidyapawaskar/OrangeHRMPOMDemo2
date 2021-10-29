@@ -22,6 +22,7 @@ public class Homepage
 	
 	public void loadHomepage()
 	{
+		System.out.println("In loadHomepage method");
 		PageFactory.initElements(Config.driver, this);
 	}
 
