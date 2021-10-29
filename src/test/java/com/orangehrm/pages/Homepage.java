@@ -44,7 +44,7 @@ public class Homepage
 	{
 		System.out.println("In clickonLogout method under Homepage");
 		objLogout.click();
-		
+		System.out.println("User has logged out from Homepage successfully");
 	}
 	
 	public static void main(String[] args) throws IOException, InterruptedException
